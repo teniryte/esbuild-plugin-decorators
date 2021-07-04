@@ -1,0 +1,32 @@
+{
+  "name": "esbuild-plugin-decorators",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "description": "esbuild experimental decorators",
+  "keywords": [
+    "esbuild",
+    "bundle",
+    "decorators"
+  ],
+  "homepage": "https://github.com/teniryte/esbuild-plugin-decorators",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest"
+  },
+  "author": {
+    "name": "teniryte",
+    "email": "teniryte@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:teniryte/esbuild-plugin-decorators.git"
+  },
+  "publish": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
